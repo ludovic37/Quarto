@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Quarto</string>
+    <string name="quarto">QUARTO</string>
+
+    <string name="player_vs_player">Player Vs Player</string>
+    <string name="player_vs_ai">Player Vs AI</string>
+    <string name="regle_du_jeux">Regle du jeux</string>
+
+    <!-- Page des régle -->
+    <string name="regle">Régle du jeux</string>
+    <string name="description">Description</string>
+    <string name="but_du_jeu">But du jeu</string>
+    <string name="deroulement_du_jeu">Déroulement du jeu</string>
+    <string name="fin">Fin</string>
+    <string name="description_text">Il s´agit d´un jeu qui se déroule sur un tableau carré composé d´une grille de 4 sur 4
+        soit 16 cases. Le jeu oppose deux adversaires. On utilise en plus 16 pièces qui combinent les propriétés suivantes,
+        donnant comme résultat de ces combinaisons toutes les variantes de pièces possibles:
+        \n\n\t - Taille (grande/petite)
+        \n\t - Couleur (rouge/bleue)
+        \n\t - Forme (ronde/carrée)
+        \n\t - Trou (avec trou/sans trou)</string>
+    <string name="but_text">Le but du jeu de la part de chaque joueur est de terminer à son tour une rangée de quatre pièces
+        qui aient en commun au moins une des propriétés décrites (quatre grandes, quatre petites, quatre bleues, quatre
+        rouges, quatre rondes, quatre carrées, quatre avec trou ou quatre sans trou). Les rangées pourront être verticales,
+        horizontales ou diagonales. C´est le joueur qui réussira à mettre sur le plateau la quatrième pièce d´une des
+        rangées qui gagnera la partie.</string>
+    <string name="deroulement_text">Les joueurs devront ajouter à tour de rôle des pièces sur le plateau.
+        À chaque tour les joueurs ajoutent une seule pièce sur une case du plateau. Les pièces qu´on a rajoutées au
+        plateau ne peuvent pas être déplacées de la case où elles ont été mises.\n
+
+        Une des particularités des plus importantes de ce jeu est le fait que le joueur qui ajoute une pièce choisit sur
+        quelle case il préfère la laisser, mais non pas quelle sera la pièce qu´il va ajouter au plateau, car le choix de
+        la pièce à ajouter c´est l´adversaire qui le fait, aprés qu´il a mis la sienne sur le plateau.\n
+
+        Alors un tour se compose de deux décisions.\n
+
+        1. Placer sur le plateau la pièce indiquée par l´adversaire.\n
+
+        2. Indiquer a l´adversaire la pièce qu´à son tour il devra placer sur le plateau.\n
+
+        Au début de la partie le joueur qui commence, à son premier tour, doit seulement indiquer à son adversaire quelle
+        est la pièce qu´il doit placer sur le plateau.</string>
+    <string name="fin_text">Si les 16 pièces sont placées sur le plateau et aucun des joueurs a réussi son objectif, le jeu termine en partie nulle.</string>
+    <!-- Fin page des régle -->
+</resources>
